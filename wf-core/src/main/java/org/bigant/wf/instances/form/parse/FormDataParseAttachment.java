@@ -5,6 +5,7 @@ import org.bigant.wf.instances.form.FormDataParse;
 import org.bigant.wf.ComponentType;
 import org.bigant.wf.instances.form.databean.FormDataAttachment;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 /**
@@ -18,6 +19,9 @@ public class FormDataParseAttachment implements FormDataParse<Collection<FormDat
 
     @Override
     public Collection<FormDataAttachment> strToJava(String str) {
+        if (str == null || str.isEmpty()) {
+            return new ArrayList<>();
+        }
         return JSONArray.parse(str).toJavaList(FormDataAttachment.class);
     }
 
