@@ -1,0 +1,101 @@
+{
+  "draft": {
+    "draftId": "7403653693179969537"
+  },
+  "info": {
+    "policyRuleId": "0",
+    "iconUrl": "https://lf-package-cn.feishucdn.com/obj/feishu-static/ee/approval/approval-admin/image/iconLib/v3/person.png",
+    "isSecret": false,
+    "approvalName": "@i18n@af573734-5baa-11ef-bdf8-ac1f6b3475a0",
+    "description": "@i18n@af57373d-5baa-11ef-bdf8-ac1f6b3475a0",
+    "groupId": "7343643846053560323",
+    "viewers": [
+      {
+        "viewerId": "7343643623811514396",
+        "viewerName": "",
+        "viewerType": 0
+      }
+    ],
+    "processManagers": [
+      {
+        "addProcessManager": 1,
+        "departmentList": [],
+        "exportByDepartment": 1,
+        "managerType": 1,
+        "processEdit": 1,
+        "subAdminType": 0,
+        "userAvatarUrl": "https://s3-imfile.feishucdn.com/static-resource/v1/v3_008o_8688a68d-2a41-48e8-a392-9c27f5609e9g~?image_size=72x72&cut_type=&quality=&format=image&sticker_format=.webp",
+        "userId": "7343643812666851330",
+        "userName": "Galen"
+      }
+    ],
+    "approvalType": 3,
+    "quickAppEnable": false,
+    "quickAppTagList": [],
+    "regulationUrl": {
+      "zh_cn": "",
+      "en_us": "",
+      "ja_jp": ""
+    },
+    "approvalId": "7403653508374839297"
+  },
+  "otherSettings": {
+    "revertInterval": 2678400,
+    "instanceShareOption": "ALL",
+    "removeRepeatOption": 0,
+    "allowBatchOperate": false,
+    "supportBatchRead": true,
+    "revertOption": 1,
+    "secondApprovalOption": 0,
+    "quickApprovalOption": 1,
+    "allowInsteadCreate": false,
+    "modifyInterval": 2678400,
+    "excludeEfficiencyOption": false,
+    "allowCustomPrint": false,
+    "rollbackOption": 0,
+    "overtimeConfig": {
+      "closeTime": 3,
+      "noticeTime": 30,
+      "recoverTime": 15,
+      "modifyComment": "",
+      "closeComment": "",
+      "disable": true,
+      "disableAll": false,
+      "ruleID": "",
+      "ruleName": "",
+      "createUser": {
+        "avatarUrl": "",
+        "name": "",
+        "userId": 0
+      }
+    },
+    "allowCustomPrintType": 0,
+    "allowReApprove": 0,
+    "enableOpAuth": {}
+  },
+  "i18nResources": [
+    {
+      "isDefault": true,
+      "locale": "zh_cn",
+      "texts": {
+        "@i18n@af5736cb-5baa-11ef-bdf8-ac1f6b3475a0": "提交",
+        "@i18n@af5736ea-5baa-11ef-bdf8-ac1f6b3475a0": "1单行文本",
+        "@i18n@af5736fb-5baa-11ef-bdf8-ac1f6b3475a0": "抄送",
+        "@i18n@af57370a-5baa-11ef-bdf8-ac1f6b3475a0": "结束",
+        "@i18n@af573729-5baa-11ef-bdf8-ac1f6b3475a0": "请输入",
+        "@i18n@af573734-5baa-11ef-bdf8-ac1f6b3475a0": "test1",
+        "@i18n@af57373d-5baa-11ef-bdf8-ac1f6b3475a0": "",
+        "@i18n@af573748-5baa-11ef-bdf8-ac1f6b3475a0": "第一个审批节点",
+        "@i18n@af573763-5baa-11ef-bdf8-ac1f6b3475a0": "默认条件审批",
+        "@i18n@af57376b-5baa-11ef-bdf8-ac1f6b3475a0": "请输入",
+        "@i18n@af573777-5baa-11ef-bdf8-ac1f6b3475a0": "条件1审批",
+        "@i18n@af57378c-5baa-11ef-bdf8-ac1f6b3475a0": "单行文本",
+        "@i18n@af5737a7-5baa-11ef-bdf8-ac1f6b3475a0": "办理",
+        "$i18n-lzwghp1b-0iozn7g1ajzv-0": "单行文本1",
+        "$i18n-lzwghp1b-efn8cbk11-1": "请输入"
+      }
+    }
+  ],
+  "form": "{\"fields\":[{\"id\":\"widget17237972570260001\",\"customId\":\"\",\"name\":\"@i18n@af5736ea-5baa-11ef-bdf8-ac1f6b3475a0\",\"type\":\"input\",\"placeholder\":\"@i18n@af57376b-5baa-11ef-bdf8-ac1f6b3475a0\",\"required\":true,\"printable\":true,\"visible\":true,\"displayCondition\":\"\",\"displayCondStatus\":true,\"option\":null,\"value\":null,\"ext\":null,\"edited\":false,\"modified\":false,\"useExternalData\":false,\"key\":\"\",\"token\":\"\",\"externalUrl\":\"\",\"appId\":\"\",\"linkageConfigs\":null,\"externalDataLinkage\":false,\"enableDefaultValue\":false,\"widgetDefaultValue\":\"\",\"defaultValueType\":\"\",\"externalDataSearchable\":false,\"widgetHistoryRecords\":null},{\"id\":\"widget17237972576750001\",\"customId\":\"\",\"name\":\"@i18n@af57378c-5baa-11ef-bdf8-ac1f6b3475a0\",\"type\":\"input\",\"placeholder\":\"@i18n@af573729-5baa-11ef-bdf8-ac1f6b3475a0\",\"required\":true,\"printable\":true,\"visible\":true,\"displayCondition\":\"\",\"displayCondStatus\":true,\"option\":null,\"value\":null,\"ext\":null,\"edited\":false,\"modified\":false,\"useExternalData\":false,\"key\":\"\",\"token\":\"\",\"externalUrl\":\"\",\"appId\":\"\",\"linkageConfigs\":null,\"externalDataLinkage\":false,\"enableDefaultValue\":false,\"widgetDefaultValue\":\"\",\"defaultValueType\":\"\",\"externalDataSearchable\":false,\"widgetHistoryRecords\":null},{\"type\":\"input\",\"id\":\"widget17237974617990001\",\"name\":\"$i18n-lzwghp1b-0iozn7g1ajzv-0\",\"placeholder\":\"$i18n-lzwghp1b-efn8cbk11-1\",\"required\":true,\"printable\":true,\"enableDefaultValue\":false,\"widgetDefaultValue\":\"\",\"customId\":\"\"}],\"displayCondition\":\"[]\",\"widgetRelation\":\"{\\\"groups\\\":[]}\"}",
+  "process": "{\"lineList\":[{\"id\":\"LINE_546520_4449722\",\"dstId\":\"APPROVAL_665102_319436\",\"srcId\":\"START\",\"priority\":1,\"conditionGroupList\":[]},{\"id\":\"LINE_315280_4449722\",\"dstId\":\"ROUTE_256015_351618\",\"srcId\":\"APPROVAL_665102_319436\",\"priority\":1,\"conditionGroupList\":[]},{\"id\":\"CONDITION_248190_351621\",\"name\":\"条件1\",\"dstId\":\"APPROVAL_403663_351619\",\"srcId\":\"ROUTE_256015_351618\",\"priority\":1,\"conditionGroupList\":[[{\"formId\":\"applicant\",\"operationCode\":9,\"value\":[{\"approverIds\":[\"7343643812666851330\"],\"approverType\":2}],\"valueName\":\"CONDITION_248190_351621_condition_0_1723797360243\",\"type\":\"applicant\",\"hit\":0}]],\"isDefault\":false},{\"id\":\"CONDITION_831936_351622\",\"name\":\"其他情况\",\"dstId\":\"APPROVAL_737944_351621\",\"srcId\":\"ROUTE_256015_351618\",\"priority\":2,\"conditionGroupList\":[],\"isDefault\":true},{\"id\":\"LINE_98776_4449722\",\"dstId\":\"CC_732979_358899\",\"srcId\":\"APPROVAL_403663_351619\",\"priority\":1,\"conditionGroupList\":[]},{\"id\":\"LINE_856838_4449722\",\"dstId\":\"CC_732979_358899\",\"srcId\":\"APPROVAL_737944_351621\",\"priority\":1,\"conditionGroupList\":[]},{\"id\":\"LINE_853564_4449722\",\"dstId\":\"HANDLER_354866_3512457\",\"srcId\":\"CC_732979_358899\",\"priority\":1,\"conditionGroupList\":[]},{\"id\":\"LINE_321190_4449722\",\"dstId\":\"END\",\"srcId\":\"HANDLER_354866_3512457\",\"priority\":1,\"conditionGroupList\":[]}],\"nodeList\":[{\"id\":\"START\",\"customId\":\"\",\"approverGroup\":[],\"name\":\"@i18n@af5736cb-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":0,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":0,\"allowDelivery\":0,\"nodeType\":1,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"]}},\"emptyAssigneeList\":[],\"startCc\":[],\"endCc\":[],\"endCcType\":\"\",\"allowAddCc\":false,\"emptyAutoPass\":false,\"starterAssignee\":0,\"approverChosenRange\":null,\"approverChosenMulti\":false,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":0,\"outDegree\":1},{\"id\":\"APPROVAL_665102_319436\",\"customId\":\"\",\"approverGroup\":[{\"approverType\":10,\"approverIds\":[],\"endPointGroup\":[],\"approverOrder\":null}],\"name\":\"@i18n@af573748-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":1,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":1,\"allowDelivery\":1,\"nodeType\":3,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[{\"type\":\"1\",\"userId\":\"7343643812666851330\",\"userAvatarUrl\":\"\"}],\"startCc\":[],\"endCc\":[],\"endCcType\":\"NODE_APPROVE_END\",\"allowAddCc\":false,\"emptyAutoPass\":false,\"starterAssignee\":0,\"approverChosenRange\":[{\"type\":0,\"idList\":[]}],\"approverChosenMulti\":true,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":1},{\"id\":\"ROUTE_256015_351618\",\"customId\":\"\",\"approverGroup\":[],\"name\":\"\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":0,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":0,\"allowDelivery\":0,\"nodeType\":4,\"privilege\":{\"field\":{\"readable\":null,\"writable\":null}},\"emptyAssigneeList\":[],\"startCc\":[],\"endCc\":[],\"endCcType\":\"\",\"allowAddCc\":false,\"emptyAutoPass\":false,\"starterAssignee\":0,\"approverChosenRange\":null,\"approverChosenMulti\":false,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":2,\"isBuilt\":true},{\"id\":\"APPROVAL_403663_351619\",\"customId\":\"\",\"approverGroup\":[{\"approverType\":10,\"approverIds\":[],\"endPointGroup\":[],\"approverOrder\":0}],\"name\":\"@i18n@af573777-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":1,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":1,\"allowDelivery\":1,\"nodeType\":3,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[{\"type\":\"1\",\"userId\":\"7343643812666851330\"}],\"startCc\":[],\"endCc\":[],\"endCcType\":\"NODE_APPROVE_END\",\"allowAddCc\":false,\"emptyAutoPass\":true,\"starterAssignee\":0,\"approverChosenRange\":[{\"type\":0,\"idList\":[]}],\"approverChosenMulti\":true,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":1},{\"id\":\"APPROVAL_737944_351621\",\"customId\":\"\",\"approverGroup\":[{\"approverType\":10,\"approverIds\":[],\"endPointGroup\":[],\"approverOrder\":0}],\"name\":\"@i18n@af573763-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":1,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":1,\"allowDelivery\":1,\"nodeType\":3,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[{\"type\":\"1\",\"userId\":\"7343643812666851330\"}],\"startCc\":[],\"endCc\":[],\"endCcType\":\"NODE_APPROVE_END\",\"allowAddCc\":false,\"emptyAutoPass\":true,\"starterAssignee\":0,\"approverChosenRange\":[{\"type\":0,\"idList\":[]}],\"approverChosenMulti\":true,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":1},{\"id\":\"CC_732979_358899\",\"customId\":\"\",\"approverGroup\":[],\"name\":\"@i18n@af5736fb-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":2,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":0,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":0,\"allowDelivery\":0,\"nodeType\":5,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[],\"startCc\":[],\"endCc\":[{\"approverType\":10,\"approverIds\":[],\"endPointGroup\":null,\"approverOrder\":null}],\"endCcType\":\"NODE_APPROVE_END\",\"allowAddCc\":false,\"emptyAutoPass\":false,\"starterAssignee\":0,\"approverChosenRange\":null,\"approverChosenMulti\":false,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":2,\"outDegree\":1},{\"id\":\"HANDLER_354866_3512457\",\"customId\":\"\",\"approverGroup\":[{\"approverType\":10,\"approverIds\":[],\"endPointGroup\":null,\"approverOrder\":null}],\"name\":\"@i18n@af5737a7-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":1,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":0,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":0,\"allowDelivery\":1,\"nodeType\":6,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[],\"startCc\":[],\"endCc\":[],\"endCcType\":\"NODE_APPROVE_END\",\"allowAddCc\":false,\"emptyAutoPass\":true,\"starterAssignee\":0,\"approverChosenRange\":[{\"type\":0,\"idList\":[]}],\"approverChosenMulti\":true,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":1},{\"id\":\"END\",\"customId\":\"\",\"approverGroup\":[],\"name\":\"@i18n@af57370a-5baa-11ef-bdf8-ac1f6b3475a0\",\"approvalMethod\":0,\"defaultCc\":[],\"approvalNodeId\":\"\",\"allowRollback\":0,\"rollbackLimit\":0,\"rollbackNodeRange\":null,\"allowAddApprover\":0,\"allowDelivery\":0,\"nodeType\":2,\"privilege\":{\"field\":{\"readable\":[\"widget17237972570260001\",\"widget17237972576750001\",\"widget17237974617990001\"],\"writable\":[]}},\"emptyAssigneeList\":[],\"startCc\":[],\"endCc\":[],\"endCcType\":\"\",\"allowAddCc\":false,\"emptyAutoPass\":false,\"starterAssignee\":0,\"approverChosenRange\":null,\"approverChosenMulti\":false,\"allowStatistics\":0,\"signatureConfig\":{\"requireSignature\":false},\"requireApprovalComment\":false,\"approvalCommentPlaceholder\":\"\",\"blockedCcEnable\":false,\"inDegree\":1,\"outDegree\":0}]}"
+}

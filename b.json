@@ -1,0 +1,500 @@
+{
+  "lineList": [
+    {
+      "id": "LINE_546520_4449722",
+      "dstId": "APPROVAL_665102_319436",
+      "srcId": "START",
+      "priority": 1,
+      "conditionGroupList": []
+    },
+    {
+      "id": "LINE_315280_4449722",
+      "dstId": "ROUTE_256015_351618",
+      "srcId": "APPROVAL_665102_319436",
+      "priority": 1,
+      "conditionGroupList": []
+    },
+    {
+      "id": "CONDITION_248190_351621",
+      "name": "条件1",
+      "dstId": "APPROVAL_403663_351619",
+      "srcId": "ROUTE_256015_351618",
+      "priority": 1,
+      "conditionGroupList": [
+        [
+          {
+            "formId": "applicant",
+            "operationCode": 9,
+            "value": [
+              {
+                "approverIds": [
+                  "7343643812666851330"
+                ],
+                "approverType": 2
+              }
+            ],
+            "valueName": "CONDITION_248190_351621_condition_0_1723797360243",
+            "type": "applicant",
+            "hit": 0
+          }
+        ]
+      ],
+      "isDefault": false
+    },
+    {
+      "id": "CONDITION_831936_351622",
+      "name": "其他情况",
+      "dstId": "APPROVAL_737944_351621",
+      "srcId": "ROUTE_256015_351618",
+      "priority": 2,
+      "conditionGroupList": [],
+      "isDefault": true
+    },
+    {
+      "id": "LINE_98776_4449722",
+      "dstId": "CC_732979_358899",
+      "srcId": "APPROVAL_403663_351619",
+      "priority": 1,
+      "conditionGroupList": []
+    },
+    {
+      "id": "LINE_856838_4449722",
+      "dstId": "CC_732979_358899",
+      "srcId": "APPROVAL_737944_351621",
+      "priority": 1,
+      "conditionGroupList": []
+    },
+    {
+      "id": "LINE_853564_4449722",
+      "dstId": "HANDLER_354866_3512457",
+      "srcId": "CC_732979_358899",
+      "priority": 1,
+      "conditionGroupList": []
+    },
+    {
+      "id": "LINE_321190_4449722",
+      "dstId": "END",
+      "srcId": "HANDLER_354866_3512457",
+      "priority": 1,
+      "conditionGroupList": []
+    }
+  ],
+  "nodeList": [
+    {
+      "id": "START",
+      "customId": "",
+      "approverGroup": [],
+      "name": "@i18n@af5736cb-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 0,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 0,
+      "allowDelivery": 0,
+      "nodeType": 1,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ]
+        }
+      },
+      "emptyAssigneeList": [],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "",
+      "allowAddCc": false,
+      "emptyAutoPass": false,
+      "starterAssignee": 0,
+      "approverChosenRange": null,
+      "approverChosenMulti": false,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    {
+      "id": "APPROVAL_665102_319436",
+      "customId": "",
+      "approverGroup": [
+        {
+          "approverType": 10,
+          "approverIds": [],
+          "endPointGroup": [],
+          "approverOrder": null
+        }
+      ],
+      "name": "@i18n@af573748-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 1,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 1,
+      "allowDelivery": 1,
+      "nodeType": 3,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [
+        {
+          "type": "1",
+          "userId": "7343643812666851330",
+          "userAvatarUrl": ""
+        }
+      ],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "NODE_APPROVE_END",
+      "allowAddCc": false,
+      "emptyAutoPass": false,
+      "starterAssignee": 0,
+      "approverChosenRange": [
+        {
+          "type": 0,
+          "idList": []
+        }
+      ],
+      "approverChosenMulti": true,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "ROUTE_256015_351618",
+      "customId": "",
+      "approverGroup": [],
+      "name": "",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 0,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 0,
+      "allowDelivery": 0,
+      "nodeType": 4,
+      "privilege": {
+        "field": {
+          "readable": null,
+          "writable": null
+        }
+      },
+      "emptyAssigneeList": [],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "",
+      "allowAddCc": false,
+      "emptyAutoPass": false,
+      "starterAssignee": 0,
+      "approverChosenRange": null,
+      "approverChosenMulti": false,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 2,
+      "isBuilt": true
+    },
+    {
+      "id": "APPROVAL_403663_351619",
+      "customId": "",
+      "approverGroup": [
+        {
+          "approverType": 10,
+          "approverIds": [],
+          "endPointGroup": [],
+          "approverOrder": 0
+        }
+      ],
+      "name": "@i18n@af573777-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 1,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 1,
+      "allowDelivery": 1,
+      "nodeType": 3,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [
+        {
+          "type": "1",
+          "userId": "7343643812666851330"
+        }
+      ],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "NODE_APPROVE_END",
+      "allowAddCc": false,
+      "emptyAutoPass": true,
+      "starterAssignee": 0,
+      "approverChosenRange": [
+        {
+          "type": 0,
+          "idList": []
+        }
+      ],
+      "approverChosenMulti": true,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "APPROVAL_737944_351621",
+      "customId": "",
+      "approverGroup": [
+        {
+          "approverType": 10,
+          "approverIds": [],
+          "endPointGroup": [],
+          "approverOrder": 0
+        }
+      ],
+      "name": "@i18n@af573763-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 1,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 1,
+      "allowDelivery": 1,
+      "nodeType": 3,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [
+        {
+          "type": "1",
+          "userId": "7343643812666851330"
+        }
+      ],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "NODE_APPROVE_END",
+      "allowAddCc": false,
+      "emptyAutoPass": true,
+      "starterAssignee": 0,
+      "approverChosenRange": [
+        {
+          "type": 0,
+          "idList": []
+        }
+      ],
+      "approverChosenMulti": true,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "CC_732979_358899",
+      "customId": "",
+      "approverGroup": [],
+      "name": "@i18n@af5736fb-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 2,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 0,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 0,
+      "allowDelivery": 0,
+      "nodeType": 5,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [],
+      "startCc": [],
+      "endCc": [
+        {
+          "approverType": 10,
+          "approverIds": [],
+          "endPointGroup": null,
+          "approverOrder": null
+        }
+      ],
+      "endCcType": "NODE_APPROVE_END",
+      "allowAddCc": false,
+      "emptyAutoPass": false,
+      "starterAssignee": 0,
+      "approverChosenRange": null,
+      "approverChosenMulti": false,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    {
+      "id": "HANDLER_354866_3512457",
+      "customId": "",
+      "approverGroup": [
+        {
+          "approverType": 10,
+          "approverIds": [],
+          "endPointGroup": null,
+          "approverOrder": null
+        }
+      ],
+      "name": "@i18n@af5737a7-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 1,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 0,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 0,
+      "allowDelivery": 1,
+      "nodeType": 6,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "NODE_APPROVE_END",
+      "allowAddCc": false,
+      "emptyAutoPass": true,
+      "starterAssignee": 0,
+      "approverChosenRange": [
+        {
+          "type": 0,
+          "idList": []
+        }
+      ],
+      "approverChosenMulti": true,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    {
+      "id": "END",
+      "customId": "",
+      "approverGroup": [],
+      "name": "@i18n@af57370a-5baa-11ef-bdf8-ac1f6b3475a0",
+      "approvalMethod": 0,
+      "defaultCc": [],
+      "approvalNodeId": "",
+      "allowRollback": 0,
+      "rollbackLimit": 0,
+      "rollbackNodeRange": null,
+      "allowAddApprover": 0,
+      "allowDelivery": 0,
+      "nodeType": 2,
+      "privilege": {
+        "field": {
+          "readable": [
+            "widget17237972570260001",
+            "widget17237972576750001",
+            "widget17237974617990001"
+          ],
+          "writable": []
+        }
+      },
+      "emptyAssigneeList": [],
+      "startCc": [],
+      "endCc": [],
+      "endCcType": "",
+      "allowAddCc": false,
+      "emptyAutoPass": false,
+      "starterAssignee": 0,
+      "approverChosenRange": null,
+      "approverChosenMulti": false,
+      "allowStatistics": 0,
+      "signatureConfig": {
+        "requireSignature": false
+      },
+      "requireApprovalComment": false,
+      "approvalCommentPlaceholder": "",
+      "blockedCcEnable": false,
+      "inDegree": 1,
+      "outDegree": 0
+    }
+  ]
+}
