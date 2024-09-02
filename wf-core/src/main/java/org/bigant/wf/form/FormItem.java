@@ -4,17 +4,15 @@ import lombok.Data;
 import org.bigant.wf.ComponentType;
 
 import java.util.Map;
+import java.util.Set;
 
-/**
- * 表单基础字段
- */
 @Data
-public class FormBase {
+public class FormItem implements IFormItem {
 
     /**
-     * 表单Id
+     * key
      */
-    private String componentId;
+    private String key;
 
     /**
      * 表单名称
@@ -40,5 +38,11 @@ public class FormBase {
      * 附属信息
      */
     private Map<String, String> option;
+
+    /**
+     * 多个校验实体
+     */
+    private Set<FormItemValid> valid;
+
 
 }

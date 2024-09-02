@@ -1,14 +1,14 @@
 {
   "lineList": [
     {
-      "id": "LINE_546520_4449722",
+      "id": "LINE_969184_4733779",
       "dstId": "APPROVAL_665102_319436",
       "srcId": "START",
       "priority": 1,
       "conditionGroupList": []
     },
     {
-      "id": "LINE_315280_4449722",
+      "id": "LINE_925136_4733780",
       "dstId": "ROUTE_256015_351618",
       "srcId": "APPROVAL_665102_319436",
       "priority": 1,
@@ -51,28 +51,28 @@
       "isDefault": true
     },
     {
-      "id": "LINE_98776_4449722",
+      "id": "LINE_14450_4733780",
       "dstId": "CC_732979_358899",
       "srcId": "APPROVAL_403663_351619",
       "priority": 1,
       "conditionGroupList": []
     },
     {
-      "id": "LINE_856838_4449722",
+      "id": "LINE_731113_4733780",
       "dstId": "CC_732979_358899",
       "srcId": "APPROVAL_737944_351621",
       "priority": 1,
       "conditionGroupList": []
     },
     {
-      "id": "LINE_853564_4449722",
+      "id": "LINE_124996_4733780",
       "dstId": "HANDLER_354866_3512457",
       "srcId": "CC_732979_358899",
       "priority": 1,
       "conditionGroupList": []
     },
     {
-      "id": "LINE_321190_4449722",
+      "id": "LINE_721961_4733780",
       "dstId": "END",
       "srcId": "HANDLER_354866_3512457",
       "priority": 1,
@@ -233,14 +233,16 @@
       "customId": "",
       "approverGroup": [
         {
-          "approverType": 10,
-          "approverIds": [],
+          "approverType": 11,
+          "approverIds": [
+            "18"
+          ],
           "endPointGroup": [],
           "approverOrder": 0
         }
       ],
       "name": "@i18n@af573777-5baa-11ef-bdf8-ac1f6b3475a0",
-      "approvalMethod": 0,
+      "approvalMethod": 4,
       "defaultCc": [],
       "approvalNodeId": "",
       "allowRollback": 1,
@@ -251,20 +253,15 @@
       "nodeType": 3,
       "privilege": {
         "field": {
+          "writable": [],
           "readable": [
             "widget17237972570260001",
             "widget17237972576750001",
             "widget17237974617990001"
-          ],
-          "writable": []
+          ]
         }
       },
-      "emptyAssigneeList": [
-        {
-          "type": "1",
-          "userId": "7343643812666851330"
-        }
-      ],
+      "emptyAssigneeList": [],
       "startCc": [],
       "endCc": [],
       "endCcType": "NODE_APPROVE_END",
@@ -277,7 +274,7 @@
           "idList": []
         }
       ],
-      "approverChosenMulti": true,
+      "approverChosenMulti": false,
       "allowStatistics": 0,
       "signatureConfig": {
         "requireSignature": false
@@ -293,8 +290,10 @@
       "customId": "",
       "approverGroup": [
         {
-          "approverType": 10,
-          "approverIds": [],
+          "approverType": 5,
+          "approverIds": [
+            1
+          ],
           "endPointGroup": [],
           "approverOrder": 0
         }
@@ -311,12 +310,12 @@
       "nodeType": 3,
       "privilege": {
         "field": {
+          "writable": [],
           "readable": [
             "widget17237972570260001",
             "widget17237972576750001",
             "widget17237974617990001"
-          ],
-          "writable": []
+          ]
         }
       },
       "emptyAssigneeList": [
